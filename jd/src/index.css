@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Font Theme */
+@font-face {
+  font-family: 'Calibri-Regular';
+  src: local('Calibri-Regular'), url('https://github.com/EmtnanAlmutairi/JD/blob/main/jd/src/Fonts/calibri%20font/Calibri%20Regular/Calibri%20Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Calibri-Bold';
+  src: local('Calibri-Bold'), url('https://github.com/EmtnanAlmutairi/JD/blob/main/jd/src/Fonts/calibri%20font/Calibri%20Bold/Calibri%20Bold.TTF') format('truetype');
+  font-weight: Bold;
+}
+.background-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+
+@font-face {
+  font-family: 'WorkSans-Bold';
+  src: local('WorkSans-Bold'), url('/path/to/WorkSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Cairo-Medium';
+  src: local('Cairo-Medium'), url('/path/to/Cairo-Medium.ttf') format('truetype');
+  font-weight: medium;
+}
+
+*/
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
