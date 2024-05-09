@@ -9,19 +9,19 @@ const Workshops = () => {
       </p>
       <div className="w-auto mt-10">
         {/* Ads section */}
-        <div className="flex justify-between gap-4">
+        <div className="flex flex-col md:flex-row justify-between gap-4">
           <img
-            className="w-1/3 h-auto rounded-md"
+            className="w-full md:w-1/3 h-[250px] object-cover mb-2 md:mb-0 rounded-md"
             src={process.env.PUBLIC_URL + "/img/Card.png"}
             alt="Ad Image"
           />
           <img
-            className="w-1/3 h-auto rounded-md"
+            className="w-full md:w-1/3 h-[250px] object-cover mb-2 md:mb-0 rounded-md"
             src={process.env.PUBLIC_URL + "/img/Card2.png"}
             alt="Ad Image"
           />
           <img
-            className="w-1/3 h-auto rounded-md"
+            className="w-full md:w-1/3 h-[250px] object-cover mb-2 md:mb-0 rounded-md"
             src={process.env.PUBLIC_URL + "/img/Card3.png"}
             alt="Ad Image"
           />

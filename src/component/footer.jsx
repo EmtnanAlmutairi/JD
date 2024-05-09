@@ -4,48 +4,48 @@ import logo from "../icons/logo.png"; // استيراد شعار PNG
 const Footer = () => {
   return (
     <div className="w-full bg-gray-100 py-16 flex-col justify-start items-center gap-16 inline-flex">
-      <div className="self-stretch justify-between items-start inline-flex">
-        <div className="w-44 self-stretch flex-col justify-start items-start gap-4 inline-flex">
+      <div className="self-stretch flex-col md:flex-row justify-between items-start inline-flex">
+        <div className="w-full md:w-44 self-stretch flex-col justify-start items-start gap-4 inline-flex">
           <div className="self-stretch text-right text-zinc-900 text-base font-medium font-cairo leading-normal">
             الشركة
           </div>
           <div className="self-stretch h-4 flex-col justify-start items-start gap-4 flex">
             <div className="self-stretch justify-start items-center inline-flex">
-              <div className="w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
+              <div className="w-full md:w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
                 عنا
               </div>
             </div>
           </div>
         </div>
-        <div className="w-44 flex-col justify-start items-start gap-4 inline-flex">
+        <div className="w-full md:w-44 flex-col justify-start items-start gap-4 inline-flex">
           <div className="self-stretch text-right text-zinc-900 text-base font-medium font-cairo leading-normal">
             الدعم والمساعدة
           </div>
           <div className="self-stretch h-12 flex-col justify-start items-start gap-4 flex">
             <div className="self-stretch justify-start items-center inline-flex">
-              <div className="w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
+              <div className="w-full md:w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
                 اتصل بنا
               </div>
             </div>
             <div className="self-stretch justify-start items-center inline-flex">
-              <div className="w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
+              <div className="w-full md:w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
                 مركز المعلومات
               </div>
             </div>
           </div>
         </div>
-        <div className="w-44 flex-col justify-start items-start gap-4 inline-flex">
+        <div className="w-full md:w-44 flex-col justify-start items-start gap-4 inline-flex">
           <div className="self-stretch text-right text-zinc-900 text-base font-medium font-cairo leading-normal">
             قانوني
           </div>
           <div className="self-stretch h-12 flex-col justify-start items-start gap-4 flex">
             <div className="self-stretch justify-start items-center inline-flex">
-              <div className="w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
+              <div className="w-full md:w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
                 الخصوصية
               </div>
             </div>
             <div className="self-stretch justify-start items-center inline-flex">
-              <div className="w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
+              <div className="w-full md:w-44 text-right text-gray-500 text-xs font-medium font-cairo leading-none">
                 الشروط والحقوق
               </div>
             </div>
