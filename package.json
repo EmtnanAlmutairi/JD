@@ -2,6 +2,7 @@
   "name": "jd",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://emtnanalmutairi.github.io/JD",
   "dependencies": {
     "@headlessui/react": "^2.0.3",
     "@heroicons/react": "^1.0.6",
@@ -17,7 +18,6 @@
     "tailwindcss": "^3.4.3",
     "web-vitals": "^2.1.4"
   },
-
   "scripts": {
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
