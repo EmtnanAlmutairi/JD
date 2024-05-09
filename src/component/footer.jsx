@@ -3,7 +3,7 @@ import logo from "../icons/logo.png"; // استيراد شعار PNG
 
 const Footer = () => {
   return (
-    <div className="w-full bg-gray-100 py-16 flex flex-col justify-start items-center gap-16 inline-flex">
+    <div className="w-full bg-gray-100 py-16 flex-col justify-start items-center gap-16 inline-flex">
       <div className="self-stretch justify-between items-start inline-flex">
         <div className="w-44 self-stretch flex-col justify-start items-start gap-4 inline-flex">
           <div className="self-stretch text-right text-zinc-900 text-base font-medium font-cairo leading-normal">
